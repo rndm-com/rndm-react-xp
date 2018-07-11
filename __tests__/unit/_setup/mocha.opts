@@ -1,0 +1,5 @@
+--require babel-register
+--reporter spec
+--recursive
+--timeout 10000
+--require __tests__/unit/_setup/index.js
