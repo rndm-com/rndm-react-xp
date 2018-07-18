@@ -46,6 +46,7 @@
     "react-scripts": "1.1.4",
     "redux": "4.0.0",
     "redux-state-history": "0.1.4",
+    "rndm-test-gen": "file:///Users/paul.napier/Desktop/dev/mine/rndm/rndm-test-gen",
     "uuid": "3.2.1"
   },
   "devDependencies": {
