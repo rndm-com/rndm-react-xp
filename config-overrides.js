@@ -6,15 +6,12 @@ const rewireBabelLoader = require('react-app-rewire-babel-loader');
 const rewireEslint = require('react-app-rewire-eslint');
 
 const appDirectory = fs.realpathSync(process.cwd());
-const resolveApp = relativePath => path.resolve(appDirectory, relativePath);
+const resolveApp = relativePath => path.resolve(appDirectory, 'node_modules', relativePath);
 
-module.exports = function override(config, env) {
+const modules = [
+  'rndm-render',
+];
 
-  config = rewireBabelLoader.include(config, resolveApp('node_modules/react-navigation'));
-  config = rewireBabelLoader.include(config, resolveApp('node_modules/react-native-tab-view'));
-  config = rewireBabelLoader.include(config, resolveApp('node_modules/react-native-safe-area-view'));
-  config = rewireEslint(config, env);
-
-  return config;
-
-};
+module.exports = (config, env) => (
+  rewireEslint(modules.reduce((o, i) => rewireBabelLoader.include(o, resolveApp(i)), config), env)
+);
