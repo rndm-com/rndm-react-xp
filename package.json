@@ -12,7 +12,7 @@
     "web": "react-app-rewired start",
     "test": "mocha \"./__tests__/unit/**/*.spec.js\" --opts ./__tests__/unit/_setup/mocha.opts",
     "cover": "nyc --check-coverage npm run test",
-    "lint": "node_modules/.bin/eslint src --fix",
+    "lint": "node_modules/.bin/eslint src",
     "babel-fixes": "npm run fix-redux-state-history; npm run fix-react-dropzone;",
     "fix-redux-state-history": "rm -f node_modules/redux-state-history/.babelrc",
     "fix-react-dropzone": "rm -f node_modules/react-dropzone/.babelrc",
