@@ -9,6 +9,7 @@
     "eol-last": ["error", "always"],
     "comma-dangle": ["error", "always-multiline"],
     "strict": [2, "never"],
+    "no-case-declarations": "off",
     "react/jsx-uses-react": 2,
     "react/jsx-uses-vars": 2,
     "react/react-in-jsx-scope": 2
