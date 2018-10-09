@@ -1,3 +1,3 @@
 import './polyfill';
-import { generate } from 'rndm-test-gen';
+import { generate } from '@rndm/test-gen';
 generate({ removeSnapshots: 'unused' });

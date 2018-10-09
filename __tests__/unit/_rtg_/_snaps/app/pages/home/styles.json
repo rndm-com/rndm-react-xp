@@ -1,1 +1,32 @@
-{"default.default is expected to.matchSnapshot":{"value":{"container":{"flex":1,"justifyContent":"center","alignItems":"center","backgroundColor":"#ecf0f1"},"image":{"margin":20,"width":200,"height":200},"title":{"color":"#000000","fontSize":20},"subtitle":{"color":"#051041","fontSize":16,"textAlign":"left","marginTop":10},"hyperlink":{"color":"#2f85b4"},"list":{"justifyContent":"flex-start","width":300}}}}
+{
+  "default.default is expected to.matchSnapshot": {
+    "container": {
+      "flex": 1,
+      "justifyContent": "center",
+      "alignItems": "center",
+      "backgroundColor": "#ecf0f1"
+    },
+    "image": {
+      "margin": 20,
+      "width": 200,
+      "height": 200
+    },
+    "title": {
+      "color": "#000000",
+      "fontSize": 20
+    },
+    "subtitle": {
+      "color": "#051041",
+      "fontSize": 16,
+      "textAlign": "left",
+      "marginTop": 10
+    },
+    "hyperlink": {
+      "color": "#2f85b4"
+    },
+    "list": {
+      "justifyContent": "flex-start",
+      "width": 300
+    }
+  }
+}

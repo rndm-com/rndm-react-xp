@@ -1,1 +1,1 @@
-require('babel-node-modules')(['rndm-test-gen']);
+require('babel-node-modules')(['@rndm/test-gen']);

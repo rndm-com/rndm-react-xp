@@ -1,1 +1,12 @@
-{"default.default with [] is expected to.matchSnapshot":{"value":{"key":null,"ref":null,"props":{"style":{},"children":"Welcome to RNDM React Cross Platform (XP)"},"_owner":null,"_store":{}}}}
+{
+  "default.default with [] is expected to.matchSnapshot": {
+    "key": null,
+    "ref": null,
+    "props": {
+      "style": {},
+      "children": "Welcome to RNDM React Cross Platform (XP)"
+    },
+    "_owner": null,
+    "_store": {}
+  }
+}
