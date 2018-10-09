@@ -1,0 +1,14 @@
+{
+  "colors.default is expected to.matchSnapshot": {
+    "blue": {},
+    "black": {},
+    "white": {},
+    "grey": {},
+    "purple": {},
+    "green": {},
+    "red": {},
+    "yellow": {},
+    "clear": "",
+    "social": {}
+  }
+}

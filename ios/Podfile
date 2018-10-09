@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+application = "rndm-ios"
+
+abstract_target 'defaults' do
+
+  react_native = "../node_modules/react-native"
+  third_party = "#{react_native}/third-party-podspecs"
+
+  pod 'yoga',                               :path => "#{react_native}/ReactCommon/yoga"
+
+  pod 'RNVectorIcons',                      :path => "#{react_native}-vector-icons"
+  pod 'RNDeviceInfo',                       :path => "#{react_native}-device-info"
+
+  pod 'DoubleConversion',                   :podspec => "#{third_party}/DoubleConversion.podspec"
+  pod 'glog',                               :podspec => "#{third_party}/GLog.podspec"
+  pod 'Folly',                              :podspec => "#{third_party}/Folly.podspec"
+
+  pod 'React', path: "#{react_native}",
+  subspecs: %w(
+               Core
+               ART
+               CxxBridge
+               DevSupport
+               RCTActionSheet
+               RCTAnimation
+               RCTCameraRoll
+               RCTGeolocation
+               RCTImage
+               RCTLinkingIOS
+               RCTNetwork
+               RCTPushNotification
+               RCTSettings
+               RCTText
+               RCTVibration
+               RCTWebSocket
+               )
+
+    target "#{application}"
+end

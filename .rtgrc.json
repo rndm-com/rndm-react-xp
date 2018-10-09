@@ -1,0 +1,18 @@
+{
+  "directory": "__tests__/unit",
+  "ignoreNodes": [],
+  "exclude": [
+    "src/web",
+    "src/index"
+  ],
+  "map": [
+    {
+      "find": "styles",
+      "to": "app/styles/index.js"
+    },
+    {
+      "find": "attributions",
+      "to": "app/components/AttributionList/attributions.js"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "blue.default is expected to.matchSnapshot": [
+    "#52abd3",
+    "#2f85b4",
+    "#34495e"
+  ],
+  "black.default is expected to.matchSnapshot": [
+    "#000000",
+    "#051041"
+  ],
+  "white.default is expected to.matchSnapshot": [
+    "#ffffff",
+    "#ecf0f1"
+  ],
+  "grey.default is expected to.matchSnapshot": [
+    "#b5b5b5",
+    "#d5d7d9",
+    "#e8eaec"
+  ],
+  "purple.default is expected to.matchSnapshot": [
+    "#be90d4",
+    "#a367bf"
+  ],
+  "green.default is expected to.matchSnapshot": [
+    "#36d7b7",
+    "#09b4a7"
+  ],
+  "red.default is expected to.matchSnapshot": [
+    "#ec4a42",
+    "#c63434"
+  ],
+  "yellow.default is expected to.matchSnapshot": [
+    "#f1c40f",
+    "#f39c12"
+  ],
+  "clear.default is expected to.matchSnapshot": "#00000000",
+  "social.default is expected to.matchSnapshot": {
+    "facebook": "#3c5a95",
+    "googlePlus": "#dd4b39",
+    "twitter": "#53adea",
+    "linkedIn": "#4877b0"
+  }
+}

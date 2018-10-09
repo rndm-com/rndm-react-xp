@@ -1,0 +1,52 @@
+{
+  "blue": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "black": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "white": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "grey": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "purple": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "green": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "red": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "yellow": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "clear": [
+    {
+      "returnDefault": false
+    }
+  ],
+  "social": [
+    {
+      "returnDefault": false
+    }
+  ]
+}

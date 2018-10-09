@@ -1,0 +1,40 @@
+# OSX
+.DS_Store
+
+# IntelliJ
+.idea
+
+# node.js
+node_modules/
+
+#logs
+npm-debug.log
+**/*.js-e
+
+#coverage
+.nyc_output/
+
+#android
+android/build/
+android/app/build/
+
+## Imported fonts
+android/app/src/main/assets/fonts/Entypo.ttf
+android/app/src/main/assets/fonts/EvilIcons.ttf
+android/app/src/main/assets/fonts/Feather.ttf
+android/app/src/main/assets/fonts/FontAwesome.ttf
+android/app/src/main/assets/fonts/Foundation.ttf
+android/app/src/main/assets/fonts/Ionicons.ttf
+android/app/src/main/assets/fonts/MaterialCommunityIcons.ttf
+android/app/src/main/assets/fonts/MaterialIcons.ttf
+android/app/src/main/assets/fonts/Octicons.ttf
+android/app/src/main/assets/fonts/SimpleLineIcons.ttf
+android/app/src/main/assets/fonts/Zocial.ttf
+
+# iOS
+ios/build/
+ios/DerivedData/
+
+## CocoaPods
+ios/Podfile.lock
+ios/Pods/
