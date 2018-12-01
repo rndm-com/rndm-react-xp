@@ -1,66 +1,68 @@
 {
   "default.default with [] is expected to.matchSnapshot": {
-    "key": null,
-    "ref": null,
-    "props": {
-      "style": {
-        "flex": 1,
-        "justifyContent": "center",
-        "alignItems": "center",
-        "backgroundColor": "#ecf0f1"
-      },
-      "children": [
-        {
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "margin": 20,
-              "width": 200,
-              "height": 200
-            }
-          },
-          "_owner": null,
-          "_store": {}
+    "value": {
+      "key": null,
+      "ref": null,
+      "props": {
+        "style": {
+          "flex": 1,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "backgroundColor": "#ecf0f1"
         },
-        {
-          "key": null,
-          "ref": null,
-          "props": {
-            "style": {
-              "color": "#000000",
-              "fontSize": 20
-            }
-          },
-          "_owner": null,
-          "_store": {}
-        },
-        {
-          "key": null,
-          "ref": null,
-          "props": {
-            "styles": {
-              "subtitle": {
-                "color": "#051041",
-                "fontSize": 16,
-                "textAlign": "left",
-                "marginTop": 10
-              },
-              "hyperlink": {
-                "color": "#2f85b4"
-              },
-              "list": {
-                "justifyContent": "flex-start",
-                "width": 300
+        "children": [
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "style": {
+                "margin": 20,
+                "width": 200,
+                "height": 200
               }
-            }
+            },
+            "_owner": null,
+            "_store": {}
           },
-          "_owner": null,
-          "_store": {}
-        }
-      ]
-    },
-    "_owner": null,
-    "_store": {}
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "style": {
+                "color": "#000000",
+                "fontSize": 20
+              }
+            },
+            "_owner": null,
+            "_store": {}
+          },
+          {
+            "key": null,
+            "ref": null,
+            "props": {
+              "styles": {
+                "subtitle": {
+                  "color": "#051041",
+                  "fontSize": 16,
+                  "textAlign": "left",
+                  "marginTop": 10
+                },
+                "hyperlink": {
+                  "color": "#2f85b4"
+                },
+                "list": {
+                  "justifyContent": "flex-start",
+                  "width": 300
+                }
+              }
+            },
+            "_owner": null,
+            "_store": {}
+          }
+        ]
+      },
+      "_owner": null,
+      "_store": {}
+    }
   }
 }
