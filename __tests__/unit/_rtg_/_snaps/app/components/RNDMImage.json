@@ -1,14 +1,16 @@
 {
   "default.default with [] is expected to.matchSnapshot": {
-    "key": null,
-    "ref": null,
-    "props": {
-      "style": {},
-      "source": {
-        "uri": "https://firebasestorage.googleapis.com/v0/b/rndm-com.appspot.com/o/rndm_200.png?alt=media&token=ca705331-6963-4287-9687-bc526feb0226"
-      }
-    },
-    "_owner": null,
-    "_store": {}
+    "value": {
+      "key": null,
+      "ref": null,
+      "props": {
+        "style": {},
+        "source": {
+          "uri": "https://firebasestorage.googleapis.com/v0/b/rndm-com.appspot.com/o/rndm_200.png?alt=media&token=ca705331-6963-4287-9687-bc526feb0226"
+        }
+      },
+      "_owner": null,
+      "_store": {}
+    }
   }
 }

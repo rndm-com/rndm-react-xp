@@ -1,20 +1,22 @@
 {
   "default.default with [] is expected to.matchSnapshot": {
-    "key": null,
-    "ref": null,
-    "props": {
-      "style": {
-        "height": "100%"
+    "value": {
+      "key": null,
+      "ref": null,
+      "props": {
+        "style": {
+          "height": "100%"
+        },
+        "children": {
+          "key": null,
+          "ref": null,
+          "props": {},
+          "_owner": null,
+          "_store": {}
+        }
       },
-      "children": {
-        "key": null,
-        "ref": null,
-        "props": {},
-        "_owner": null,
-        "_store": {}
-      }
-    },
-    "_owner": null,
-    "_store": {}
+      "_owner": null,
+      "_store": {}
+    }
   }
 }
