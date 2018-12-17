@@ -2,18 +2,22 @@
   "images" : [
     {
       "idiom" : "tv",
+      "filename" : "tvos-topshelf.png",
       "scale" : "1x"
     },
     {
       "idiom" : "tv",
+      "filename" : "tvos-topshelf@2x.png",
       "scale" : "2x"
     },
     {
       "idiom" : "tv-marketing",
+      "filename" : "tvos-topshelf-1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "tv-marketing",
+      "filename" : "tvos-topshelf@2x-1.png",
       "scale" : "2x"
     }
   ],
