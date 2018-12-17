@@ -35,6 +35,9 @@ android/app/src/main/assets/fonts/Zocial.ttf
 # iOS
 ios/build/
 ios/DerivedData/
+*.xcuserstate
+project.xcworkspace
+ios/*.xcworkspace/
 
 ## CocoaPods
 ios/Podfile.lock

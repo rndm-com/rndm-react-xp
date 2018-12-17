@@ -16,7 +16,7 @@
     "babel-fixes": "npm run fix-redux-state-history; npm run fix-react-dropzone;",
     "fix-redux-state-history": "rm -f node_modules/redux-state-history/.babelrc",
     "fix-react-dropzone": "rm -f node_modules/react-dropzone/.babelrc",
-    "install-pods": "cd ios; pod install;",
+    "install-pods": "cd ios; pod install && (cd ..; node _scripts/postInstall/tvos-exclude-webviews.js)",
     "install-fonts": "cp -R node_modules/react-native-vector-icons/Fonts/. android/app/src/main/assets/fonts;",
     "loc": "cloc src ios/ninenow android/app/src __tests__ --exclude-ext=json,xml,stub.js",
     "loc-src": "cloc src ios/ninenow android/app/src --exclude-ext=json,xml,stub.js",
