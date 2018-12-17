@@ -73,6 +73,22 @@ npm run ios
 ```
 **Description**: Compiles the native iOS code and opens the iOS Simulator.
 
+#### tvOS
+
+tvOS requires a little more setup to allow the easy running from command-line.
+
+**Installation**
+
+```sh
+npm install -g ios-sim
+```
+
+**Command**:
+```sh
+npm run tvos
+```
+**Description**: Compiles the native tvOS code and opens the tvOS Simulator.
+
 #### Android
 
 **Command**:
