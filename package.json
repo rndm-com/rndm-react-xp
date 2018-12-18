@@ -1,6 +1,6 @@
 {
   "name": "rndm-react-xp",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -10,6 +10,7 @@
     "ios": "react-native run-ios",
     "tvos": "xcrun xcodebuild -workspace ios/rndm.xcworkspace -scheme rndm-tvos -configuration Debug -destination 'platform=tvOS Simulator,name=Apple TV 4K,OS=12.1' | xcpretty && ios-sim launch ios/build/rndm/Build/Products/Debug-appletvsimulator/rndm-tvos.app --devicetypeid 'Apple-TV-4K-4K, tvOS 12.1'",
     "android": "react-native run-android",
+    "windows": "react-native run-windows",
     "web": "react-app-rewired start",
     "test": "mocha \"./__tests__/unit/**/*.spec.js\" --opts ./__tests__/unit/_setup/mocha.opts",
     "cover": "nyc --check-coverage npm run test",
@@ -41,6 +42,7 @@
     "react-native-elements": "^0.19.1",
     "react-native-vector-icons": "^4.6.0",
     "react-native-web": "0.9.0",
+    "react-native-windows": "^0.57.0-rc.0",
     "react-navigation": "2.0.1",
     "react-navigation-redux-helpers": "1.0.6",
     "react-redux": "5.1.1",
@@ -77,6 +79,7 @@
     "react-app-rewire-babel-loader": "^0.1.1",
     "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewired": "^2.0.0",
+    "rnpm-plugin-windows": "^0.2.8",
     "sinon": "^7.1.1",
     "sinon-chai": "^3.3.0"
   },
