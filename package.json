@@ -5,7 +5,7 @@
   "author": "RNDM",
   "license": "Apache-2.0",
   "scripts": {
-    "postinstall": "npm run babel-fixes; npm run install-pods; npm run install-fonts;",
+    "postinstall": "npm run babel-fixes; npm run install-pods; npm run install-fonts; npm install jest-serializer@24.0.0-alpha.6;",
     "packager": "npm run babel-fixes; node node_modules/react-native/local-cli/cli.js start -- -reset-cache",
     "ios": "react-native run-ios",
     "tvos": "xcrun xcodebuild -workspace ios/rndm.xcworkspace -scheme rndm-tvos -configuration Debug -destination 'platform=tvOS Simulator,name=Apple TV 4K,OS=12.1' | xcpretty && ios-sim launch ios/build/rndm/Build/Products/Debug-appletvsimulator/rndm-tvos.app --devicetypeid 'Apple-TV-4K-4K, tvOS 12.1'",
