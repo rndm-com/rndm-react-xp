@@ -17,6 +17,10 @@ You can also checkout this medium blog:
 
 https://medium.com/@MadApper/react-native-setting-up-the-environment-5c310ef814d5
 
+For Windows Environment you can follow the below article:
+
+https://shift.infinite.red/getting-started-with-react-native-development-on-windows-90d85a72ae65
+
 ## Installation
 
 ### From Git
@@ -98,3 +102,15 @@ npm run android
 **Description**: Compiles the native Android code.
 
 _**Please Note**: You need to have a connected android Emulator or device in order to run the Android code._
+
+#### (BETA) Windows 10, Windows 10 Phone, Xbox
+
+This is still undergoing testing. If you are a windows user and would like to contribute to this project, your input will be much appreciated!
+
+**Command**:
+```sh
+npm run windows
+```
+**Description**: Compiles the native Windows UWP code.
+
+_**Please Note**: This requires a windows environment to run._
