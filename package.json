@@ -1,10 +1,15 @@
 {
   "name": "rndm-react-xp",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
+  "engines": {
+    "node": "8.3.0"
+  },
   "scripts": {
+    "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
+    "start": "node node_modules/.bin/serve -s build",
     "postinstall": "npm run babel-fixes; npm run install-pods; npm run install-fonts; npm install jest-serializer@24.0.0-alpha.6;",
     "packager": "npm run babel-fixes; node node_modules/react-native/local-cli/cli.js start -- -reset-cache",
     "ios": "react-native run-ios",
@@ -80,6 +85,7 @@
     "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewired": "^2.0.0",
     "rnpm-plugin-windows": "^0.2.8",
+    "serve": "^10.1.1",
     "sinon": "^7.1.1",
     "sinon-chai": "^3.3.0"
   },
