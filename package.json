@@ -1,6 +1,6 @@
 {
   "name": "rndm-react-xp",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -83,7 +83,7 @@
     "proxyquire": "^2.1.0",
     "react-app-rewire-babel-loader": "^0.1.1",
     "react-app-rewire-eslint": "^0.2.3",
-    "react-app-rewired": "^2.0.0",
+    "react-app-rewired": "2.0.0",
     "rnpm-plugin-windows": "^0.2.8",
     "serve": "^10.1.1",
     "sinon": "^7.1.1",
