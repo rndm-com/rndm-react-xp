@@ -1,4 +1,4 @@
-# RNDM React XP
+# [RNDM](https://www.rndm.com) React XP
 
 ## About
 
@@ -33,7 +33,7 @@ https://github.com/rndm-com/rndm-react-xp
 
 If you have already installed our rndm-cli package, then you can take advantage of the init method to easily create your new project.
 
-[Click here for full instructions on this package >](https://github.com/rndm-com/rndm-cli)
+[Click here for full instructions on this package >](https://www.rndm.com/docs/utils/cli)
 
 ## Usage
 
