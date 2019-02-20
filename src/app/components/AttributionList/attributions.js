@@ -11,6 +11,10 @@ const attributions = [
     title: 'React Native Web',
     uri: 'https://necolas.github.io/react-native-web/storybook',
   },
+  {
+    title: 'React Native Windows',
+    uri: 'https://github.com/Microsoft/react-native-windows',
+  },
 ];
 
 export default attributions;
