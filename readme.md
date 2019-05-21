@@ -1,5 +1,7 @@
 # [RNDM](https://www.rndm.com) React XP
 
+![](https://img.shields.io/badge/React-v16.8.6-green.svg) ![](https://img.shields.io/badge/React%20Native-v0.59.8-green.svg) ![](https://img.shields.io/badge/React%20Native%20Web-v0.11.2-green.svg) ![](https://img.shields.io/badge/React%20Native%20Windows-v0.57.0-orange.svg)
+
 ## About
 
 This template is a simple and usable template for building cross-platform applications with [React](https://reactjs.org/), [React Native](https://facebook.github.io/react-native/) and [React Native Web](https://necolas.github.io/react-native-web).
