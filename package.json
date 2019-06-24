@@ -1,6 +1,6 @@
 {
   "name": "rndm-react-xp",
-  "version": "0.5.3",
+  "version": "0.5.4",
   "main": "src/index.js",
   "author": "RNDM",
   "license": "Apache-2.0",
@@ -9,8 +9,9 @@
   },
   "scripts": {
     "build": "GENERATE_SOURCEMAP=false react-app-rewired build",
+    "bundle:ios": "node_modules/.bin/react-native bundle --entry-file='src/index.native.js' --bundle-output='./ios/main.jsbundle' --dev=false --platform='ios' --assets-dest='./ios'",
     "start": "node node_modules/.bin/serve -s build",
-    "postinstall": "npm run babel-fixes; npm run install-pods; npm run install-fonts; npm install jest-serializer@24.0.0-alpha.6;",
+    "postinstall": "npm run babel-fixes; npm run install-pods; npm run install-fonts; npm install jest-serializer@24.0.0-alpha.6; node _scripts/postInstall/xcode-custom-entry-point.js;",
     "packager": "npm run babel-fixes; node node_modules/react-native/local-cli/cli.js start -- -reset-cache",
     "ios": "./node_modules/.bin/react-native run-ios --scheme rndm-ios",
     "tvos": "xcrun xcodebuild -workspace ios/rndm.xcworkspace -scheme rndm-tvos -configuration Debug -derivedDataPath './ios/build' -destination 'platform=tvOS Simulator,name=Apple TV 4K,OS=12.1' | xcpretty && ./node_modules/.bin/ios-sim launch ios/build/Build/Products/Debug-appletvsimulator/rndm-tvos.app --devicetypeid 'Apple-TV-4K-4K, tvOS 12.1'",
