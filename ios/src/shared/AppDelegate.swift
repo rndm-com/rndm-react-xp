@@ -11,7 +11,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   
   var window: UIWindow? = UIWindow(frame: UIScreen.main.bounds)
   
-  func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey : Any]? = nil) -> Bool {
+  public func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
     
     let moduleName = "rndm"
     let view = RCTRootView(bundleURL: RCTBundleURLProvider.root, moduleName: moduleName, initialProperties: nil, launchOptions: launchOptions)
