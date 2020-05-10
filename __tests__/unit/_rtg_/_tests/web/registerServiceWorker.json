@@ -1,1 +1,13 @@
-{}
+{
+  "default": [
+    {
+      "args": []
+    }
+  ],
+  "unregister": [
+    {
+      "args": [],
+      "returnDefault": false
+    }
+  ]
+}

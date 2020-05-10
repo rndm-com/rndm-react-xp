@@ -1,3 +1,4 @@
 {
-  "Home.default with [] is expected to.matchSnapshot": {}
+  "Home.default is expected to.matchSnapshot": {},
+  ";.default is expected to.matchSnapshot": {}
 }

@@ -1,6 +1,6 @@
 import { AppRegistry } from 'react-native';
 import DeviceInfo from 'react-native-device-info';
-import App from './app/index';
+import App from './app';
 
 const native = () => {
   return {

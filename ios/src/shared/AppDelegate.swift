@@ -15,7 +15,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     let moduleName = "rndm"
     let view = RCTRootView(bundleURL: RCTBundleURLProvider.root, moduleName: moduleName, initialProperties: nil, launchOptions: launchOptions)
-    view?.backgroundColor = UIColor.white
+    view.backgroundColor = UIColor.white
     let controller = UIViewController()
     controller.view = view
     window?.rootViewController = controller

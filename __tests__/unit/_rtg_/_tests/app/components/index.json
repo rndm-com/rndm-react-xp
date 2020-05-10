@@ -1,19 +1,21 @@
 {
   "RNDMImage": [
     {
-      "args": [],
       "returnDefault": false
     }
   ],
   "WelcomeMessage": [
     {
-      "args": [],
       "returnDefault": false
     }
   ],
   "AttributionList": [
     {
-      "args": [],
+      "returnDefault": false
+    }
+  ],
+  ";": [
+    {
       "returnDefault": false
     }
   ]

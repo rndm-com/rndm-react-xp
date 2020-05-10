@@ -1,5 +1,12 @@
 {
-  "RNDMImage.default with [] is expected to.matchSnapshot": {},
-  "WelcomeMessage.default with [] is expected to.matchSnapshot": {},
-  "AttributionList.default with [] is expected to.matchSnapshot": {}
+  "RNDMImage.default is expected to.matchSnapshot": {
+    "value": {}
+  },
+  "WelcomeMessage.default is expected to.matchSnapshot": {
+    "value": {}
+  },
+  "AttributionList.default is expected to.matchSnapshot": {
+    "value": {}
+  },
+  ";.default is expected to.matchSnapshot": {}
 }
