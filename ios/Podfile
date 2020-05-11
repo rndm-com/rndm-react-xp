@@ -46,7 +46,6 @@ end
 
 target 'rndm-ios' do
 
-  pod 'RNDeviceInfo', :path => "../node_modules/react-native-device-info"
 
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
