@@ -85,7 +85,7 @@
     "react-app-rewire-babel-loader": "^0.1.1",
     "react-app-rewire-eslint": "^0.2.3",
     "react-app-rewired": "2.0.0",
-    "react-dev-utils": "^10.2.1",
+    "react-dev-utils": "^11.0.4",
     "rnpm-plugin-windows": "0.6.1",
     "serve": "11.3.0",
     "sinon": "9.0.2",
