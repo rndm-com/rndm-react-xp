@@ -4,6 +4,8 @@ const path = require('path');
 const current = process.cwd();
 const script = 'node_modules/react-native-web/dist/exports/StyleSheet/compile.js';
 
+console.log(`Updating ${script}`);
+
 const file = path.join(current, script);
 
 const contents = fs.readFileSync(file).toString();
