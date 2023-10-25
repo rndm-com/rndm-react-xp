@@ -31,7 +31,7 @@
     "@babel/polyfill": "^7.12.1",
     "clean-deep": "3.4.0",
     "compare-versions": "3.6.0",
-    "crypto-js": "4.0.0",
+    "crypto-js": "4.2.0",
     "detect-browser": "5.0.0",
     "firebase": "8.6.1",
     "react": "17.0.2",
